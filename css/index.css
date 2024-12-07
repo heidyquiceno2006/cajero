@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+
+.menu ul {
+    background-color: blue;
+    text-align: center;
+    width: 100%;
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-flex;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+.menu li:hover {
+    background-color: black;
+}
+
+main {
+    
+    padding: 20px;
+    margin: 0; 
+}
+
+
+
+.titulo2 {
+    text-align: center;
+    font-size: 2rem;
+    color: goldenrod;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+section{
+    text-align: center;
+}
